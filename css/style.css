@@ -555,7 +555,7 @@
 	background-color: #F6F6F6;
 }
 
-.about__title {
+.title-block {
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 900;
@@ -563,10 +563,13 @@
 	line-height: 41px;
 	text-align: center;
 	color: black;
+}
+
+.about__title-block {
 	margin-bottom: 18px;
 }
 
-.about__desc {
+.text-block {
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 900;
@@ -574,6 +577,9 @@
 	line-height: 22px;
 	text-align: center;
 	color: black;
+}
+
+.about__text-block {
 	margin-bottom: 20px;
 }
 
@@ -581,3 +587,41 @@
 	margin-bottom: 0;
 }
 /* About styles end */
+
+
+/* Skills styles start */
+
+.skills__title-block {
+	margin: 91px 0 68px 0;
+}
+
+.skills__text-block {
+	margin-bottom: 84px;
+}
+
+.skills__programs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 111px;
+}
+
+.skills__program {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.skills__program-img {
+	margin-bottom: 24px;
+}
+
+.skills_program-title {
+	margin-bottom: 40px;
+}
+
+.skills__star {
+	margin-right: 9px;
+}
+/* Skills styles end */
