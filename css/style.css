@@ -628,6 +628,10 @@
 
 /* Portfolio styles start */
 
+.portfolio__wrapper{
+	background-color: #F6F6F6;
+}
+
 .portfolio__case {
 	display: flex;
 	flex-direction: column;
@@ -659,3 +663,62 @@
 }
 
 /* Portfolio styles end */
+
+/* Contacts styles start */
+
+.footer__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer__title-block {
+	margin: 114px 0 20px 0;
+}
+
+.footer__text-block {
+	margin-bottom: 30px;
+}
+
+.footer__btn {
+	margin-bottom: 86px;
+  background: black;
+  border-radius: 40px;
+}
+
+.footer__btn-text {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	margin: 10px 29px;
+}
+
+.footer__icons {
+  margin-bottom: 46px;
+}
+
+.footer__icon {
+  margin-right: 61px;
+}
+
+.footer__icon:last-child {
+  margin-right: 0;
+}
+
+.footer__text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-bottom: 123px;
+}
+
+/* Contacts styles end */
