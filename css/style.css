@@ -625,3 +625,37 @@
 	margin-right: 9px;
 }
 /* Skills styles end */
+
+/* Portfolio styles start */
+
+.portfolio__case {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.portfolio__title-block {
+	margin-bottom: 47px;
+}
+
+.portfolio__case-img {
+	margin-bottom: 45px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.42);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.42);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.42);
+}
+
+.case-link {
+	margin-bottom: 97px;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: black;
+}
+
+/* Portfolio styles end */
