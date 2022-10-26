@@ -197,6 +197,10 @@
   button,
   select { /* 1 */
     text-transform: none;
+    background: none;
+    border-style: none;
+    margin: 0;
+    padding: 0;
   }
   
   /**
@@ -220,6 +224,7 @@
   [type="submit"]::-moz-focus-inner {
     border-style: none;
     padding: 0;
+    margin: 0;
   }
   
   /**
@@ -534,10 +539,6 @@
     border: none;
   }
 
-	.header__leng_active {
-		color: #828282;
-	}
-
 	.header__lang-ru:hover, .header__land-ru:focus, .header__land-ru:active {
     opacity: .75;
 }
@@ -639,6 +640,7 @@
 /* Portfolio styles start */
 
 .portfolio__wrapper{
+  padding-top: 113px;
 	background-color: #F6F6F6;
 }
 
@@ -712,11 +714,11 @@
   margin-bottom: 46px;
 }
 
-.footer__icon {
+.footer__link {
   margin-right: 61px;
 }
 
-.footer__icon:last-child {
+.footer__link:last-child {
   margin-right: 0;
 }
 
